@@ -150,6 +150,6 @@ newtxt = ' '.join(words)                                       #空格拼接中�
 wordcloud = WordCloud(font_path=r"C:\Windows\Fonts\FZSTK.TTF").generate(newtxt)   #生成词云，font_path="msyh.ttc"为选择微软雅黑字体
 image = wordcloud.to_image()
 display(image)                              #显示词云图
-#wordcloud.to_file('data/长安十二时辰.png')	# 保存图片
+#wordcloud.to_file('pdfanalyze.png')	# 保存图片
 
     
